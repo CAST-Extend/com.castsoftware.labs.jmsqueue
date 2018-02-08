@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<metaModel file_level="client" file_no="36">
+       
+    <type name="Java_JMS_QueueCall" rid="201">
+       <description>Java JMS QueueCall</description>
+       <inheritedCategory name="CAST_PluginObject"/>
+       <inheritedCategory name="Java" />
+       <inheritedCategory name="JmsQueueProperties"/> 
+    </type>
+    <type name="Java_JMS_QueueconnectionFactory" rid="202">
+       <description>Java JMS Queue connection factory</description>
+       <inheritedCategory name="CAST_PluginObject"/>
+       <inheritedCategory name="Java" />
+       <inheritedCategory name="JmsQueueProperties"/>
+    </type>
+    
+     <category name="JmsQueueProperties" rid="203">
+        <description>Custom properties for JMS Queue</description>
+     <property name="sourcetype" type="string" rid="204">
+            <description>source Type</description>
+            <attribute name="INF_TYPE" intValue="2045100"/>
+            <attribute name="INF_SUB_TYPE" intValue="2"/>
+            <attribute name="ACCESS_APPVIEW" intValue="1"/>
+            <attribute name="ACCESS_CVS" intValue="1"/>
+            <attribute name="ACCESS_HTML" intValue="1"/>
+      </property>
+      <property name="sourcefile" type="string" rid="205">
+            <description>File source</description>
+            <attribute name="INF_TYPE" intValue="2045101"/>
+            <attribute name="INF_SUB_TYPE" intValue="2"/>
+            <attribute name="ACCESS_APPVIEW" intValue="1"/>
+            <attribute name="ACCESS_CVS" intValue="1"/>
+            <attribute name="ACCESS_HTML" intValue="1"/>
+      </property>
+ </category> 
+  
+ </metaModel>
+
+
